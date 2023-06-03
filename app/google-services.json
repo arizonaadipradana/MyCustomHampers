@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "644301963716",
+    "firebase_url": "https://custom-hampers-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "custom-hampers",
+    "storage_bucket": "custom-hampers.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:644301963716:android:f9fbe6a229a038e5ffa491",
+        "android_client_info": {
+          "package_name": "com.mycustomhampers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "644301963716-kfmnohjgmdlq4phoard8212uh2kht6g4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbS4RGnyvom5Z2yTwaz6xkZ6owLWktDhg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "644301963716-kfmnohjgmdlq4phoard8212uh2kht6g4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

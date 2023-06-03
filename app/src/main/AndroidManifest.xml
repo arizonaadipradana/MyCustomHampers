@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    package="com.mycustomhampers"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="com.mycustomhampers.Application"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name_client"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EStore"
+        tools:replace="android:label">
+        <activity
+            android:name="com.mycustomhampers.Checkout"
+            android:exported="false" />
+        <activity
+            android:name="com.mycustomhampers.Cart"
+            android:exported="false" />
+        <activity
+            android:name="com.mycustomhampers.Splash_Screen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mycustomhampers.Login"
+            android:exported="false" />
+        <activity
+            android:name="com.mycustomhampers.Register"
+            android:exported="false" />
+        <activity
+            android:name="com.mycustomhampers.Products_Home"
+            android:exported="false" />
+    </application>
+
+</manifest>
